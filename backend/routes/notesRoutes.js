@@ -3,7 +3,7 @@ import express from "express"
 const router = express.Router()
 
 router.get("/", (req, res) => {
-  res.status(200).send("Notes API")
+  res.status(200).send("Notes fetched succesfully")
 });
 
 router.post("/", (req, res) => {
